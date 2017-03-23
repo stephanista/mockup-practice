@@ -126,6 +126,19 @@ main {
   font-size: 1.25rem;
 }
 
+table {
+  width: 65%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: left;
+}
+
 .story {
   padding-left: 1.5rem;
 }
