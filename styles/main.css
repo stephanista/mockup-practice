@@ -2,6 +2,10 @@ html {
   font-family: "Calibri Light", 'Calibri', sans-serif;
 }
 
+main {
+  margin-bottom: 1rem;
+}
+
 .headbar {
   background-color: #000;
   line-height: .75rem;
@@ -14,27 +18,30 @@ html {
 .booking a {
   color: red;
   padding-right: .5rem;
+  font-size: 1.25rem;
 }
 
 .headbar h1 {
   color: white;
   padding: 5rem 0 0 1.5rem;
+  font-size: 2.5rem;
 }
 
 .headbar h3 {
-  color: grey;
+  color: silver;
   padding-left: 1.5rem;
+  padding-bottom: .5rem;
 }
 
 .topnav {
-  background: grey;
+  background: silver;
 }
 
 .topnav ul {
   background: #grey;
   list-style:none;
   margin: 0;
-  padding: .5rem 1rem;
+  padding: 1rem 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -90,7 +97,7 @@ html {
 }
 
 .story {
-
+  padding-left: 1.5rem;
 }
 
 .story h1 {
@@ -102,11 +109,19 @@ html {
 }
 
 .quote {
+  padding-left: 1.5rem;
   font-style: italic;
 }
 
 .quote h1 {
   font-style: normal;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
 }
 
 .bottom {
@@ -125,6 +140,7 @@ html {
 .contact {
   line-height: .25rem;
   padding-top: .25rem;
+  padding-left: 1rem;
 }
 
 .contact a {
@@ -134,4 +150,5 @@ html {
 .copyright {
   text-align: center;
   line-height: .25rem;
+
 }
