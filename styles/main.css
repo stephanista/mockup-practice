@@ -2,8 +2,17 @@ html {
   font-family: "Calibri Light", 'Calibri', sans-serif;
 }
 
-main {
-  margin-bottom: 1rem;
+body {
+  height: 100%
+}
+
+#container {
+  min-height: 100%;
+  position: relative;
+}
+
+#mainbody {
+  padding-bottom: 7.5rem;
 }
 
 .headbar {
@@ -24,13 +33,14 @@ main {
 .headbar h1 {
   color: white;
   padding: 5rem 0 0 1.5rem;
-  font-size: 2.5rem;
+  font-size: 2.75rem;
 }
 
 .headbar h3 {
   color: silver;
   padding-left: 1.5rem;
   padding-bottom: .5rem;
+  font-size: 1.5rem
 }
 
 .topnav {
@@ -54,10 +64,14 @@ main {
   color: purple;
 }
 
+main {
+  padding-bottom: 7.5rem;
+}
+
 .catbox {
   text-align: center;
   border-radius: 1px;
-  border-style: inset;
+  border-style: solid;
   float: right;
   padding: .5rem;
   margin: 1rem 1rem;
@@ -88,12 +102,23 @@ main {
   text-align: left;
   margin: .25rem 1rem .25rem .25rem;
   padding: .25rem;
+  font-size: 1rem;
+}
+
+.catbox span {
+  display: inline-block;
+  position: absolute;
+  right: 1rem;
+  padding: .5rem .5rem 1rem 0;
+  margin: 0 .2rem 0 0;
+  max-width: 30%;
 }
 
 .catbox a {
   display: inline-block;
   color: red;
   padding-left: 1rem;
+  font-size: 1.25rem;
 }
 
 .story {
@@ -101,11 +126,11 @@ main {
 }
 
 .story h1 {
-
+  padding-top: 1rem;
 }
 
 .story p {
-
+ font-size: 1.5rem;
 }
 
 .quote {
@@ -113,15 +138,20 @@ main {
   font-style: italic;
 }
 
+.quote p {
+  font-size: 1.5rem;
+}
+
 .quote h1 {
   font-style: normal;
+  padding-top: 1rem;
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-
+  position:fixed;
+  bottom:0;
+  height: 7.5rem;
+  width:100%;
 }
 
 .bottom {
