@@ -6,12 +6,24 @@ html {
   background-color: #000;
 }
 
+.booking {
+  float: right;
+}
+
+.booking a {
+  color: red;
+  padding-right: .5rem;
+}
+
 .headbar h1 {
   color: white;
+  padding-left: 1.5rem;
+  padding-top: 5rem;
 }
 
 .headbar h3 {
   color: grey;
+  padding-left: 1.5rem;
 }
 
 .topnav {
@@ -21,7 +33,14 @@ html {
 .topnav ul {
   background: #grey;
   list-style:none;
-  /*find way to make inline*/
+  margin: 0;
+  padding: .5rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: flex-start;
+  font-size: 1.25rem;
 }
 
 .topnav a {
@@ -73,7 +92,12 @@ html {
 }
 
 .bottom {
+  background-color: black;
+  padding-bottom: .5rem;
+}
 
+.bottom p {
+  color: white;
 }
 
 .bottom div {
@@ -81,9 +105,15 @@ html {
 }
 
 .contact {
-
+  line-height: .25rem;
+  padding-top: .25rem;
 }
 
 .contact a {
+  color: red;
+}
 
+.copyright {
+  text-align: center;
+  line-height: .25rem;
 }
