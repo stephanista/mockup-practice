@@ -4,6 +4,7 @@ html {
 
 .headbar {
   background-color: #000;
+  line-height: .75rem;
 }
 
 .booking {
@@ -17,8 +18,7 @@ html {
 
 .headbar h1 {
   color: white;
-  padding-left: 1.5rem;
-  padding-top: 5rem;
+  padding: 5rem 0 0 1.5rem;
 }
 
 .headbar h3 {
@@ -52,6 +52,8 @@ html {
   border-radius: 1px;
   border-style: inset;
   float: right;
+  padding: .5rem;
+  margin: 1rem 1rem;
 }
 
 .catbox h2 {
@@ -64,11 +66,27 @@ html {
 }
 
 .catbox img {
-
+  height: 15rem;
+  width: 30rem;
+  max-width: 80%;
+  max-height: 80%;
+  padding: 0;
 }
 
 .catbox p {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  display: inline-block;
+  text-align: left;
+  margin: .25rem 1rem .25rem .25rem;
+  padding: .25rem;
+}
 
+.catbox a {
+  display: inline-block;
+  color: red;
+  padding-left: 1rem;
 }
 
 .story {
